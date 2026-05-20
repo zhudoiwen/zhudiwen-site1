@@ -1,0 +1,13 @@
+- [x] 分析所有需要修改的组件
+- [ ] 修改 `src/components/magicui/rainbow-button.tsx` - 添加悬浮上浮+点击按压
+- [ ] 修改 `src/components/magicui/rainbow-heading.tsx` - 添加悬浮上浮+点击按压
+- [ ] 修改 `src/components/magicui/pulsating-button.tsx` - 添加悬浮上浮+点击按压
+- [ ] 修改 `src/components/project-card.tsx` - 添加悬浮上浮+点击按压
+- [ ] 修改 `src/components/section/work-section.tsx` - AccordionTrigger 添加悬浮上浮+点击按压
+- [ ] 修改 `src/components/section/hackathons-section.tsx` - 卡片添加悬浮上浮+点击按压
+- [ ] 修改 `src/components/section/contact-section.tsx` - 联系卡片添加悬浮上浮+点击按压
+- [ ] 修改 `src/app/page.tsx` - 教育背景链接添加悬浮上浮+点击按压
+- [ ] 修改 `src/app/blog/page.tsx` - 博客列表和分页添加悬浮上浮+点击按压
+- [ ] 修改 `src/app/blog/[slug]/page.tsx` - 返回按钮和前后文章添加悬浮上浮+点击按压
+- [ ] 修改 `src/app/not-found.tsx` - 按钮添加悬浮上浮+点击按压
+- [ ] 验证 TypeScript 编译通过
