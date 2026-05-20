@@ -31,9 +31,6 @@ yarn-error.log*
 .env.*
 !.env.example
 
-# large video files (exceeds GitHub file size limit)
-public/videos/*.mp4
-
 # vercel
 .vercel
 
