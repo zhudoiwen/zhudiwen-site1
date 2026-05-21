@@ -95,7 +95,7 @@ const VideoModal = ({ src, onClose }: { src: string; onClose: () => void }) => {
           x5-playsinline="true"
           x5-video-player-fullscreen="false"
           controlsList="nodownload"
-          preload="metadata"
+          preload="none"
           className={`max-w-full max-h-[90vh] rounded-lg object-contain transform-gpu ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
         >
           <source src={correctSrc} type="video/mp4; codecs=avc1.4D401E,mp4a.40.2" />
@@ -163,7 +163,7 @@ const AutoPlayVideo = ({ src }: { src: string }) => {
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="none"
           className="w-full h-full object-cover"
           onCanPlay={() => videoRef.current?.play().catch(() => {})}
         >

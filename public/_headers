@@ -1,0 +1,11 @@
+# EdgeOne Pages headers for video files
+/videos/*
+  Access-Control-Allow-Origin: *
+  Content-Type: video/mp4
+  Cache-Control: public, max-age=31536000, immutable
+
+# Also apply to root-level video files if any
+*.mp4
+  Access-Control-Allow-Origin: *
+  Content-Type: video/mp4
+  Cache-Control: public, max-age=31536000, immutable

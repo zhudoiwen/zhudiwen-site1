@@ -1,0 +1,8 @@
+name = "zhudiwen-site1"
+compatibility_date = "2026-05-20"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".open-next"
+
+[[kv_namespaces]]
+binding = "NEXT_CACHE"
+id = "75bb8d7ce89d4ad19d680e3c73d6c706"
