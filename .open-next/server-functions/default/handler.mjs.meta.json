@@ -7406,7 +7406,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__0zhv4l1._.js": {
-      "bytes": 416669,
+      "bytes": 416661,
       "imports": [
         {
           "path": "crypto",
@@ -11522,7 +11522,7 @@
           "bytesInOutput": 2424
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__0zhv4l1._.js": {
-          "bytesInOutput": 458617
+          "bytesInOutput": 458609
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/_next-internal_server_app_page_actions_09-gtaw.js": {
           "bytesInOutput": 251
@@ -11705,7 +11705,7 @@
           "bytesInOutput": 68503
         }
       },
-      "bytes": 9862794
+      "bytes": 9862786
     }
   }
 }
