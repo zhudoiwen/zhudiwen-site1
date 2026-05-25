@@ -18,13 +18,18 @@ const posts = defineCollection({
         content: z.string(),
     }),
     transform: async (document, context) => {
-        const mdx = await compileMDX(context, document, {
-            remarkPlugins: [remarkGfm, remarkCodeMeta],
-        });
-        return {
-        ...document,
-            mdx,
-        };
+        try {
+            const mdx = await compileMDX(context, document, {
+                remarkPlugins: [remarkGfm, remarkCodeMeta],
+            });
+            return {
+                ...document,
+                mdx,
+            };
+        } catch (error) {
+            console.error(`Error compiling MDX for ${document._meta.path}:`, error);
+            throw error;
+        }
     },
 });
 
